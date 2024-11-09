@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  background-color: black;
+  box-sizing: border-box;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+:root {
+  --primary-color: #000000;
+  --secondary-color: #121419;
+  --text-color: #fff;
+  --bg-color: #1f2029;
+  --link-color: #966ad6;
+  --dark-bg-color: #878787;
+}
+.logo {
+  display: flex;
+  place-items: center;
+  gap: 1rem;
+}
+.logo img {
+  width: 3rem;
+  border-radius: 0.3rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+  padding: 1rem;
+}
+
+.leftSection ul {
+  display: flex;
+  gap: 1rem;
+}
+
+.leftSection ul li {
+  list-style-type: none;
+}
+.menu-icon {
+  display: none;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+.menu-icon .bar {
+  display: block;
+  width: 2rem;
+  height: 0.25rem;
+  background-color: white;
+  margin: 0.5rem 0;
+  border-radius: 2rem;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.menu-icon.active .bar:nth-child(1) {
+  transform: translateY(0.5rem) rotate(180deg);
+}
+.menu-icon.active .bar:nth-child(2) {
+  opacity: 0;
+}
+.menu-icon.active .bar:nth-child(3) {
+  transform: translateY(-0.5rem) rotate(-180deg);
+}
+.navlist active {
+}
+@media (max-width: 55rem) {
+  * {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 38rem) {
+  * {
+    font-size: 1.2rem;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .leftSection ul {
+    display: none;
+  }
+  .logo img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.7rem;
+  }
+}
