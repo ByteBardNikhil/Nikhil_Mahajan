@@ -7,8 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
     menuIcon.classList.toggle("active");
     if (menuIcon.classList.contains("active")) {
       document.querySelector(".logo").style.display = "none";
+      // document.querySelector("..leftsection").style.display = "none";
+
       navList.style.display = "flex";
-      liElements.forEach((ele) => (ele.style.fontSize = "1rem"));
+      // liElements.forEach((ele) => (ele.style.fontSize = "40%"));
     } else {
       // document.querySelector(".navbar").style.display = "block";
 

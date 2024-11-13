@@ -75,24 +75,31 @@
   .menu-icon {
     display: block;
   }
+  #navlist {
+    width: fit-content;
+  }
 
   .leftSection {
     display: flex;
     place-items: center;
-    gap: 1rem;
+    flex-wrap: nowrap;
+    border: 2px solid white;
     flex-direction: row-reverse;
-    justify-content: space-between;
+    margin: 0;
+    width: 100%;
+    overflow: scroll;
+    justify-content: space-around;
   }
   .leftSection ul {
     display: none;
+  }
+  .leftSection ul li {
+    font-size: clamp(32%, 0.1vw, 60%);
   }
 
   .logo img {
     height: 3rem;
     width: 3rem;
     border-radius: 0.7rem;
-  }
-  #navlist li {
-    font-size: 1.2rem;
   }
 }
