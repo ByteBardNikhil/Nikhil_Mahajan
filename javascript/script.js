@@ -1,15 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
   const menuIcon = document.querySelector(".menu-icon");
   const navList = document.getElementById("navlist");
-  const li = document.querySelector("#navlist li");
+  const liElements = document.querySelectorAll("#navlist li");
 
   menuIcon.addEventListener("click", () => {
     menuIcon.classList.toggle("active");
     if (menuIcon.classList.contains("active")) {
       document.querySelector(".logo").style.display = "none";
       navList.style.display = "flex";
-      li.forEach((ele) => (ele.style.fontSize = "0.3rem"));
+      liElements.forEach((ele) => (ele.style.fontSize = "1rem"));
     } else {
+      // document.querySelector(".navbar").style.display = "block";
+
       document.querySelector(".logo").style.display = "flex";
       navList.style.display = "none";
     }

@@ -67,23 +67,15 @@
 .menu-icon.active .bar:nth-child(3) {
   transform: translateY(-0.5rem) rotate(-180deg);
 }
+/* CSS for main section */
 
 @media (max-width: 55rem) {
-  * {
-    font-size: 1rem;
-  }
 }
 @media (max-width: 38rem) {
-  * {
-    font-size: 1.2rem;
-  }
   .menu-icon {
     display: block;
   }
 
-  .navbar {
-    justify-content: space-between;
-  }
   .leftSection {
     display: flex;
     place-items: center;
@@ -94,12 +86,13 @@
   .leftSection ul {
     display: none;
   }
-  .leftSection ul li {
-    font-size: 0.8rem;
-  }
+
   .logo img {
     height: 3rem;
     width: 3rem;
     border-radius: 0.7rem;
+  }
+  #navlist li {
+    font-size: 1.2rem;
   }
 }
