@@ -74,6 +74,7 @@
 @media (max-width: 38rem) {
   .menu-icon {
     display: block;
+    flex-grow: 0;
   }
   #navlist {
     width: fit-content;
@@ -83,18 +84,22 @@
     display: flex;
     place-items: center;
     flex-wrap: nowrap;
-    border: 2px solid white;
+    /* border: 2px solid white;2d */
     flex-direction: row-reverse;
     margin: 0;
     width: 100%;
     overflow: scroll;
-    justify-content: space-around;
+    justify-content: space-between;
   }
   .leftSection ul {
     display: none;
+    flex: 9;
   }
   .leftSection ul li {
-    font-size: clamp(32%, 0.1vw, 60%);
+    font-size: clamp(45%, 1vw, 60%);
+  }
+  .logo span {
+    text-align: center;
   }
 
   .logo img {

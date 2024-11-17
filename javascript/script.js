@@ -10,11 +10,13 @@ document.addEventListener("DOMContentLoaded", function () {
       // document.querySelector("..leftsection").style.display = "none";
 
       navList.style.display = "flex";
+
       // liElements.forEach((ele) => (ele.style.fontSize = "40%"));
     } else {
       // document.querySelector(".navbar").style.display = "block";
 
       document.querySelector(".logo").style.display = "flex";
+
       navList.style.display = "none";
     }
 
