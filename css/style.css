@@ -35,10 +35,16 @@
   place-items: center;
   padding: 1rem;
 }
+#navlist img {
+  width: 2.8rem;
+}
 
 .leftSection ul {
   display: flex;
   gap: 1rem;
+}
+object {
+  width: 50px;
 }
 
 .leftSection ul li {
