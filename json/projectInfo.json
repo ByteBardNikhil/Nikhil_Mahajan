@@ -1,0 +1,30 @@
+[
+  {
+    "project_name": "My Web Application",
+    "project_image": "path/to/image1.jpg",
+    "technologies_used": ["Spring Boot", "React", "JavaScript", "CSS"],
+    "description": "This is a full-stack web application built using Spring Boot for the backend and React for the frontend.",
+    "features": [
+      "User authentication",
+      "Responsive design",
+      "Real-time notifications"
+    ],
+    "repository_link": "https://github.com/username/project-repository",
+    "date_created": "2024-01-01",
+    "status": "Completed",
+    "contributors": ["Nikhil Mahajan", "Contributor 2"],
+    "project_url": "https://my-web-application.com"
+  },
+  {
+    "project_name": "E-Commerce Website",
+    "project_image": "path/to/image2.jpg",
+    "technologies_used": ["Node.js", "MongoDB", "Express", "React"],
+    "description": "A full-stack e-commerce website with shopping cart functionality, payment integration, and admin panel.",
+    "features": ["Shopping Cart", "Admin Panel", "Payment Gateway Integration"],
+    "repository_link": "https://github.com/username/e-commerce-website",
+    "date_created": "2024-03-15",
+    "status": "In Progress",
+    "contributors": ["Nikhil Mahajan", "Contributor 3"],
+    "project_url": "https://e-commerce-website.com"
+  }
+]
