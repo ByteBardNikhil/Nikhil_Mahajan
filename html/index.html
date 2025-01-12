@@ -144,6 +144,17 @@
         omnis!
       </p>
     </section>
+    <script differ>
+      function cb(response) {
+        document.getElementById("visits").innerText = response.value;
+      }
+    </script>
+    <script
+      async
+      src="https://api.countapi.xyz/hit/bytebardnikhil.github.io/Nikhil_Mahajan/html/index?callback=cb"
+    ></script>
+
+    <div>Page Visits: <span id="visits">0</span></div>
 
     <script src="../javascript/script.js"></script>
     <script></script>
