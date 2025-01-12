@@ -49,8 +49,8 @@
             /></a>
           </li>
           <li>
-            <a href="#"
-              ><img src="../media/Projects.svg" alt="Proeject" title="Projects"
+            <a href="#projects"
+              ><img src="../media/Projects.svg" alt="Project" title="Projects"
             /></a>
           </li>
           <li>
@@ -71,57 +71,7 @@
     </header>
 
     <main>
-      <div class="filter-bar">
-        <input
-          list="tech-list"
-          id="tech-filter"
-          placeholder="Filter by Technology"
-        />
-        <datalist id="tech-list">
-          <option value="Spring Boot"></option>
-          <option value="React"></option>
-          <option value="JavaScript"></option>
-          <option value="CSS"></option>
-        </datalist>
-      </div>
-      <div class="card">
-        <div class="image">
-          <img src="../media/p1.png" alt="Project Image" />
-        </div>
-        <div class="card-body">
-          <h2 class="card-title">StockScope</h2>
-          <p class="card-description">
-            This is a full-stack web application built using Spring Boot for the
-            backend and React for the frontend.
-          </p>
-          <h4>Technologies Used:</h4>
-          <ul class="tech-list">
-            <li>Spring Boot</li>
-            <li>React</li>
-            <li>JavaScript</li>
-            <li>CSS</li>
-          </ul>
-          <h4>Features:</h4>
-          <ul class="tech-list">
-            <li>User authentication</li>
-            <li>Responsive design</li>
-            <li>Real-time notifications</li>
-          </ul>
-          <div class="card-footer">
-            <a
-              href="https://github.com/username/project-repository"
-              class="link"
-              >Repository</a
-            >
-            <a
-              href="https://github.com/username/project-repository"
-              class="link"
-              >view</a
-            >
-            <span>Status: Completed</span>
-          </div>
-        </div>
-      </div>
+      <div class="cards" id="projects"></div>
     </main>
     <section>
       <p>
@@ -144,15 +94,8 @@
         omnis!
       </p>
     </section>
-    <script differ>
-      function cb(response) {
-        document.getElementById("visits").innerText = response.value;
-      }
-    </script>
-    <script
-      async
-      src="https://api.countapi.xyz/hit/bytebardnikhil.github.io/Nikhil_Mahajan/html/index?callback=cb"
-    ></script>
+
+    <div class="counter"></div>
 
     <div>Page Visits: <span id="visits">0</span></div>
 

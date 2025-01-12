@@ -1,30 +1,236 @@
-[
-  {
-    "project_name": "My Web Application",
-    "project_image": "path/to/image1.jpg",
-    "technologies_used": ["Spring Boot", "React", "JavaScript", "CSS"],
-    "description": "This is a full-stack web application built using Spring Boot for the backend and React for the frontend.",
-    "features": [
-      "User authentication",
-      "Responsive design",
-      "Real-time notifications"
-    ],
-    "repository_link": "https://github.com/username/project-repository",
-    "date_created": "2024-01-01",
-    "status": "Completed",
-    "contributors": ["Nikhil Mahajan", "Contributor 2"],
-    "project_url": "https://my-web-application.com"
-  },
-  {
-    "project_name": "E-Commerce Website",
-    "project_image": "path/to/image2.jpg",
-    "technologies_used": ["Node.js", "MongoDB", "Express", "React"],
-    "description": "A full-stack e-commerce website with shopping cart functionality, payment integration, and admin panel.",
-    "features": ["Shopping Cart", "Admin Panel", "Payment Gateway Integration"],
-    "repository_link": "https://github.com/username/e-commerce-website",
-    "date_created": "2024-03-15",
-    "status": "In Progress",
-    "contributors": ["Nikhil Mahajan", "Contributor 3"],
-    "project_url": "https://e-commerce-website.com"
-  }
-]
+{
+  "projects": [
+    {
+      "title": "StockScope",
+      "image": "../media/p1.png",
+      "description": "This is a full-stack web application built using Spring Boot for the backend and React for the frontend.",
+      "technologies": ["Spring Boot", "React", "JavaScript", "CSS"],
+      "features": [
+        "User authentication",
+        "Responsive design",
+        "Real-time notifications"
+      ],
+      "repository": "https://github.com/username/project-repository",
+      "view": "https://github.com/username/project-repository",
+      "status": "Completed"
+    },
+    {
+      "title": "Project 2",
+      "image": "../media/p1.png",
+      "description": "A web application using Node.js and Angular for managing tasks.",
+      "technologies": ["Node.js", "Angular", "JavaScript", "HTML"],
+      "features": ["Task creation", "User roles", "Drag and drop interface"],
+      "repository": "https://github.com/username/project2-repository",
+      "view": "https://github.com/username/project2-repository",
+      "status": "Completed"
+    },
+    {
+      "title": "Project 3",
+      "image": "../media/p1.png",
+      "description": "A mobile app built with Flutter to track personal expenses.",
+      "technologies": ["Flutter", "Dart", "Firebase"],
+      "features": ["Expense tracking", "Budget analysis", "Push notifications"],
+      "repository": "https://github.com/username/project3-repository",
+      "view": "https://github.com/username/project3-repository",
+      "status": "In Progress"
+    },
+    {
+      "title": "Project 4",
+      "image": "../media/p1.png",
+      "description": "A machine learning application for predicting housing prices.",
+      "technologies": ["Python", "TensorFlow", "Scikit-learn"],
+      "features": ["Price prediction", "Model training", "Data visualization"],
+      "repository": "https://github.com/username/project4-repository",
+      "view": "https://github.com/username/project4-repository",
+      "status": "Completed"
+    },
+    {
+      "title": "Project 5",
+      "image": "../media/p1.png",
+      "description": "An e-commerce website built using Laravel and Vue.js.",
+      "technologies": ["Laravel", "Vue.js", "PHP", "CSS"],
+      "features": [
+        "Product listing",
+        "User authentication",
+        "Payment integration"
+      ],
+      "repository": "https://github.com/username/project5-repository",
+      "view": "https://github.com/username/project5-repository",
+      "status": "Completed"
+    },
+    {
+      "title": "Project 6",
+      "image": "../media/p1.png",
+      "description": "A real-time chat application built using Node.js and Socket.io.",
+      "technologies": ["Node.js", "Socket.io", "JavaScript", "HTML"],
+      "features": ["Private messaging", "Group chat", "Message history"],
+      "repository": "https://github.com/username/project6-repository",
+      "view": "https://github.com/username/project6-repository",
+      "status": "In Progress"
+    },
+    {
+      "title": "Project 7",
+      "image": "../media/p1.png",
+      "description": "A photo gallery web app built using React and Node.js.",
+      "technologies": ["React", "Node.js", "MongoDB", "CSS"],
+      "features": ["Image upload", "Gallery view", "Search functionality"],
+      "repository": "https://github.com/username/project7-repository",
+      "view": "https://github.com/username/project7-repository",
+      "status": "Completed"
+    },
+    {
+      "title": "Project 8",
+      "image": "../media/p1.png",
+      "description": "A blog platform built using Django for the backend and React for the frontend.",
+      "technologies": ["Django", "React", "Python", "JavaScript"],
+      "features": ["Blog creation", "User comments", "Post categorization"],
+      "repository": "https://github.com/username/project8-repository",
+      "view": "https://github.com/username/project8-repository",
+      "status": "In Progress"
+    },
+    {
+      "title": "Project 9",
+      "image": "../media/p1.png",
+      "description": "An IoT application for monitoring home temperature and humidity using Raspberry Pi.",
+      "technologies": ["Raspberry Pi", "Python", "MQTT", "JavaScript"],
+      "features": [
+        "Real-time monitoring",
+        "Temperature control",
+        "Alert system"
+      ],
+      "repository": "https://github.com/username/project9-repository",
+      "view": "https://github.com/username/project9-repository",
+      "status": "Completed"
+    },
+    {
+      "title": "Project 10",
+      "image": "../media/p1.png",
+      "description": "A weather forecasting app using React and OpenWeatherMap API.",
+      "technologies": ["React", "JavaScript", "API", "CSS"],
+      "features": [
+        "Weather search",
+        "Real-time updates",
+        "Geolocation support"
+      ],
+      "repository": "https://github.com/username/project10-repository",
+      "view": "https://github.com/username/project10-repository",
+      "status": "Completed"
+    },
+    {
+      "title": "Project 11",
+      "image": "../media/p1.png",
+      "description": "A quiz application built with Angular and Firebase.",
+      "technologies": ["Angular", "Firebase", "JavaScript"],
+      "features": [
+        "Multiple-choice questions",
+        "Leaderboard",
+        "User authentication"
+      ],
+      "repository": "https://github.com/username/project11-repository",
+      "view": "https://github.com/username/project11-repository",
+      "status": "Completed"
+    },
+    {
+      "title": "Project 12",
+      "image": "../media/p1.png",
+      "description": "A personal portfolio website built with HTML, CSS, and JavaScript.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "features": ["Project showcase", "Resume download", "Contact form"],
+      "repository": "https://github.com/username/project12-repository",
+      "view": "https://github.com/username/project12-repository",
+      "status": "Completed"
+    },
+    {
+      "title": "Project 13",
+      "image": "../media/p1.png",
+      "description": "A food delivery app built using React Native and Firebase.",
+      "technologies": ["React Native", "Firebase", "JavaScript"],
+      "features": [
+        "Menu browsing",
+        "Order tracking",
+        "Real-time notifications"
+      ],
+      "repository": "https://github.com/username/project13-repository",
+      "view": "https://github.com/username/project13-repository",
+      "status": "In Progress"
+    },
+    {
+      "title": "Project 14",
+      "image": "../media/p1.png",
+      "description": "An e-learning platform built with Ruby on Rails and React.",
+      "technologies": ["Ruby on Rails", "React", "JavaScript", "CSS"],
+      "features": ["Course creation", "User dashboard", "Quiz functionality"],
+      "repository": "https://github.com/username/project14-repository",
+      "view": "https://github.com/username/project14-repository",
+      "status": "Completed"
+    },
+    {
+      "title": "Project 15",
+      "image": "../media/p1.png",
+      "description": "A chatbot application built using Python and NLTK.",
+      "technologies": ["Python", "NLTK", "AI", "JavaScript"],
+      "features": [
+        "Natural language processing",
+        "Response generation",
+        "Learning capabilities"
+      ],
+      "repository": "https://github.com/username/project15-repository",
+      "view": "https://github.com/username/project15-repository",
+      "status": "Completed"
+    },
+    {
+      "title": "Project 16",
+      "image": "../media/p1.png",
+      "description": "A social media app built using React Native and Firebase.",
+      "technologies": ["React Native", "Firebase", "JavaScript", "CSS"],
+      "features": ["Profile management", "Post sharing", "Likes and comments"],
+      "repository": "https://github.com/username/project16-repository",
+      "view": "https://github.com/username/project16-repository",
+      "status": "Completed"
+    },
+    {
+      "title": "Project 17",
+      "image": "../media/p1.png",
+      "description": "An online booking system built using Python and Flask.",
+      "technologies": ["Python", "Flask", "HTML", "CSS"],
+      "features": [
+        "Booking management",
+        "Calendar view",
+        "Email notifications"
+      ],
+      "repository": "https://github.com/username/project17-repository",
+      "view": "https://github.com/username/project17-repository",
+      "status": "In Progress"
+    },
+    {
+      "title": "Project 18",
+      "image": "../media/p1.png",
+      "description": "A video streaming platform built using Node.js and MongoDB.",
+      "technologies": ["Node.js", "MongoDB", "JavaScript"],
+      "features": ["Video upload", "Streaming", "User comments"],
+      "repository": "https://github.com/username/project18-repository",
+      "view": "https://github.com/username/project18-repository",
+      "status": "Completed"
+    },
+    {
+      "title": "Project 19",
+      "image": "../media/p1.png",
+      "description": "An interactive dashboard built with React and D3.js for data visualization.",
+      "technologies": ["React", "D3.js", "JavaScript"],
+      "features": ["Data visualization", "Custom charts", "Interactive UI"],
+      "repository": "https://github.com/username/project19-repository",
+      "view": "https://github.com/username/project19-repository",
+      "status": "Completed"
+    },
+    {
+      "title": "Project 20",
+      "image": "../media/p1.png",
+      "description": "A fitness tracking app built with Flutter and Firebase.",
+      "technologies": ["Flutter", "Firebase", "Dart"],
+      "features": ["Step counting", "Workout logs", "Real-time syncing"],
+      "repository": "https://github.com/username/project20-repository",
+      "view": "https://github.com/username/project20-repository",
+      "status": "Completed"
+    }
+  ]
+}
