@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  font-size: 1.1rem;
 }
 
 :root {
@@ -15,7 +14,7 @@
   --text-color: #fff;
   --bg-color: #1f2029;
   --link-color: #966ad6;
-  --dark-bg-color: #878787;
+  --light-bg-color: #878787;
 }
 .logo {
   display: flex;
@@ -75,27 +74,127 @@ object {
   transform: translateY(-0.5rem) rotate(-180deg);
 }
 /* CSS for main section */
-
-header h1 {
-  color: rgb(147, 139, 139);
-  font-size: 1.4em;
-}
-header p {
-  color: rgb(147, 139, 139);
-  font-size: 0.8em;
-  font-weight: 800;
-}
 header {
   /* border: 1px solid blue; */
   text-align: center;
   margin-top: 1.6em;
+  color: var(--light-bg-color);
 }
+header h1 {
+  font-size: 1.2em;
+  color: var(--light-bg-color);
+}
+header p {
+  font-size: 0.8em;
+  font-weight: 800;
+  color: var(--light-bg-color);
+}
+
 header strong {
   font-size: 1.4em;
   color: rgb(221, 217, 217);
 }
+/* car css start  */
+main::-webkit-scrollbar {
+  scrollbar-width: 10px;
+  scrollbar-color: var(--light-bg-color);
+}
+main {
+  margin-top: 15vh;
+  height: 100vh;
+  overflow-y: scroll;
+
+  box-sizing: border-box;
+}
+/* filter bar css start  */
+.filter-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filter-bar input {
+  width: 300px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  appearance: none; /* Remove default styling including arrows */
+  -webkit-appearance: none;
+}
+
+.filter-bar input:focus {
+  border-color: transparent; /* Gradually remove border when typing */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.filter-bar datalist {
+  display: none; /* Default datalist dropdown indicator is hidden */
+}
+
+/* filter bar css end  */
+
+.image {
+  text-align: center;
+  margin: 0;
+}
+.card {
+  width: 25vw;
+
+  border-radius: 20px;
+  border: 3px solid var(--light-bg-color);
+  font-family: Arial, sans-serif;
+
+  font-size: 11px;
+  padding: 10px;
+}
+.card img {
+  width: 100%;
+
+  height: 25vh;
+  border: 3px solid var(--bg-color);
+  border-radius: 20px;
+  object-fit: contain;
+
+  text-align: center;
+}
+
+.card-title {
+  font-size: 2em;
+  text-align: center;
+}
+.card-description {
+  color: var(--light-bg-color);
+}
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2px;
+}
+.tech-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.tech-list li {
+  display: inline;
+  margin-right: 5px;
+  color: var(--light-bg-color);
+}
+.link {
+  text-decoration: none;
+  color: #007bff;
+}
+/* car css end  */
 
 @media (max-width: 38rem) {
+  .card {
+    width: 100%;
+  }
   .menu-icon {
     display: block;
     flex-grow: 0;
@@ -112,7 +211,7 @@ header strong {
     flex-direction: row-reverse;
     margin: 0;
     width: 100%;
-    overflow: scroll;
+    overflow: hidden;
     justify-content: space-between;
   }
   .leftSection ul {
@@ -131,9 +230,18 @@ header strong {
     width: 3rem;
     border-radius: 0.7rem;
   }
+  nav span {
+    width: 30vw;
+  }
 }
 @media (max-width: 400px) {
   * {
-    font-size: 0.7rem;
+    font-size: 11.2px;
+  }
+  header {
+    font-size: 8px;
+  }
+  nav span {
+    width: 20vw;
   }
 }
