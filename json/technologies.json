@@ -1,0 +1,50 @@
+[
+    {
+        "icon": "\ud83c\udf43",
+        "label": "Mongo DB"
+    },
+    {
+        "icon": "\ud83d\udce6",
+        "label": "Node JS"
+    },
+    {
+        "icon": "\ud83d\udd04",
+        "label": "Express JS"
+    },
+    {
+        "icon": "\ud83e\udd81",
+        "label": "Mongoose"
+    },
+    {
+        "icon": "\ud83c\udf10",
+        "label": "HTTP"
+    },
+    {
+        "icon": "\ud83d\udcc4",
+        "label": "HTML"
+    },
+    {
+        "icon": "\ud83c\udfa8",
+        "label": "CSS"
+    },
+    {
+        "icon": "\u269b\ufe0f",
+        "label": "React"
+    },
+    {
+        "icon": "\ud83d\udcdc",
+        "label": "JavaScript"
+    },
+    {
+        "icon": "\ud83d\udd04",
+        "label": "Git"
+    },
+    {
+        "icon": "\u2601\ufe0f",
+        "label": "AWS"
+    },
+    {
+        "icon": "\ud83d\udc27",
+        "label": "Linux"
+    }
+]
