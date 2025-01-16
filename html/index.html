@@ -24,7 +24,12 @@
   <body>
     <nav class="navbar">
       <figcaption class="logo">
-        <img src="../media/Nikhil_Image_small.jpg" alt="Nikhil Mahajan" />
+        <img
+          src="../media/Nikhil_Image_small.jpg"
+          alt="Nikhil Mahajan"
+          oncontextmenu="return false"
+          style="pointer-events: none"
+        />
         <span>Nikhil Mahajan</span>
       </figcaption>
       <div class="leftSection">
@@ -76,17 +81,17 @@
       <section class="stats-container" aria-label="Achievement Statistics">
         <div class="stats-grid">
           <article class="stat-card">
-            <h2 class="stat-number">14</h2>
+            <h2 class="stat-number">20</h2>
             <p class="stat-label">Verified Skills</p>
           </article>
 
           <article class="stat-card">
-            <h2 class="stat-number">7</h2>
+            <h2 class="stat-number">20</h2>
             <p class="stat-label">Professional Projects</p>
           </article>
 
           <article class="stat-card">
-            <h2 class="stat-number">150+</h2>
+            <h2 class="stat-number">350+</h2>
             <p class="stat-label">DSA Problems Solved</p>
           </article>
         </div>
@@ -94,7 +99,11 @@
     </header>
 
     <div class="skills">
-      <h1>Skills gained</h1>
+      <h1>
+        Skills gained
+        <span></span>
+      </h1>
+
       <div class="tech-list-skills">
         <!-- Technologies will be appended here dynamically -->
       </div>
